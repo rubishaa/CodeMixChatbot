@@ -1,0 +1,20 @@
+!pip install flask --quiet
+!pip install flask-ngrok --quiet
+
+!wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz
+
+!tar -xvf /content/ngrok-stable-linux-amd64.tgz
+
+!./ngrok authtoken 2B4ndZBbH3u6hTpVuuMYpFIccel_4wyePnME7b7atSJFGQTGg
+
+!pip install -U sentence-transformers
+
+!pip install google_trans_new
+!pip install googletrans==4.0.0rc1
+
+!pip install transformers
+
+!pip install -U nltk
+
+nltk.download('punkt')
+
